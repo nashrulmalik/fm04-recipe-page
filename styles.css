@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
+
+
+
+:root {
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+    --brown-800: #854632;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: subpixel-antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--stone-100);
+    color: var(--stone-600);
+    font-weight: 400;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: white;
+    border-radius: 24px;
+    margin: 128px 0;
+    width: 656px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+p {
+    line-height: 150%;
+}
+
+img {
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif; 
+    font-size: 40;
+    color: var(--stone-900);
+    line-height: 125%;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 28;
+    color: var(--brown-800);
+    line-height: 28px;
+}
+
+h3 {
+    font-size: 20;
+    color: var(--rose-800);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.highlight {
+    gap: 16px;
+    background-color: var(--rose-50);
+    padding: 24px;
+    border-radius: 12px;
+    gap: 16px;
+    
+}
+
+li span {
+    position: relative;
+    left: 10px;
+}
+
+ol, ul {
+    padding: 0 24px;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+
+li:last-child {
+    margin-bottom: 0; 
+}
+
+li::marker {
+    color: var(--brown-800);
+    font-weight: 700;
+}
+
+.highlight > ul > li::marker {
+    color: var(--rose-800);
+}
+  
+
+hr {
+    height: 0;
+    border: 0.5px solid var(--stone-150)
+}
+
+.brown {
+    color:var(--brown-800);
+}
+
+.special {
+    flex-direction: row;
+    padding: 0 32px;
+}
+
+.special > div {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens narrower than or equal to 768px */
+    main {
+        width: 536px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    /* Styles for screens narrower than or equal to 600px */
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+    .gap-32 {
+        padding: 32px;
+    }
+
+    img {
+        border-radius: 0;
+    }
+  }
