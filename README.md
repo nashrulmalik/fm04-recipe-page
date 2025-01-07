@@ -12,8 +12,6 @@
 
 ## Overview
 
-### The challenge
-
 ### Screenshot
 
 ![](./screenshot.jpg)
