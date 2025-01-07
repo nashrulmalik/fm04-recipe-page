@@ -59,5 +59,5 @@ li span {
 ## Author
 
 - [Website](https://nashrulmalik.com)
-- Linkedin](https://www.frontendmentor.io/profile/nashrulmalik)
+- [Linkedin](https://www.linkedin.com/in/muhammad-nashrul-malik-aaa186b6/)
 - [Twitter](https://www.twitter.com/nashrulmalik)
